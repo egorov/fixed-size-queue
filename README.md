@@ -1,4 +1,10 @@
-# Lightweight queue
+# fixed-size-queue
+
+Lightweight queue based on fixed size array internally.
+
+You can add it to your project with npm:
+
+    npm install fixed-size-queue
 
 Based on fixed size array. Internally write and read operations changes different locations in memory. Make an instance and use it like this: 
 
