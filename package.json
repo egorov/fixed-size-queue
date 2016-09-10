@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/egorov/fixed-size-queue.git"
+    "url": "https://github.com/egorov/fixed-size-queue.git"
   },
   "keywords": [
     "queue",
@@ -27,7 +27,7 @@
   },
   "homepage": "https://github.com/egorov/fixed-size-queue#readme",
   "devDependencies":{
-  	"jasmine": "*",
+  	"jasmine": "2.4",
 	"jshint": "*"
   }
 }

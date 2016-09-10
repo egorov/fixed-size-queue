@@ -4,9 +4,9 @@ describe('Queue', function(){
     var Queue, capacity, queue;
 
     beforeEach(function(){
-		Queue = require('../src/Queue');
+		Queue = require('../index');
         capacity = 10;
-        queue = new Queue(capacity);
+        queue = Queue.create(capacity);
     });
 
     it('should return queue capacity and count', function(){
@@ -18,13 +18,13 @@ describe('Queue', function(){
 
     it('should set default capacity value', function(){
 
-        var default_capacity_queue = new Queue(-1);
+        var default_capacity_queue = Queue.create(-1);
         expect(default_capacity_queue.getCapacity()).toEqual(100);
 
-        default_capacity_queue = new Queue(0);
+        default_capacity_queue = Queue.create(0);
         expect(default_capacity_queue.getCapacity()).toEqual(100);
 
-        default_capacity_queue = new Queue();
+        default_capacity_queue = Queue.create();
         expect(default_capacity_queue.getCapacity()).toEqual(100);
     });
 
