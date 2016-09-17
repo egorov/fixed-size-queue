@@ -1,4 +1,4 @@
-# fixed-size-queue
+# fixed-size-queue ![Build status](https://travis-ci.org/egorov/fixed-size-queue.svg?branch=master)
 
 Lightweight queue based on fixed size array internally.
 
